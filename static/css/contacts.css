@@ -1,7 +1,8 @@
 .redalert {
-    color: red;
+    color: #ff69b4; /* rosa */
     text-align: center;
     font-style: italic;
+    font-weight: bold; /* negrito */
 }
 
 #contact {
@@ -14,6 +15,7 @@
 #contact label {
     display: block;
     padding: 0 0 .25rem .25rem;
+    font-weight: bold; /* negrito */
 }
 
 #contact input,
@@ -22,14 +24,15 @@
     font-family: inherit;
     font-size: inherit;
     border-radius: .3rem;
+    font-weight: bold; /* negrito */
 }
 
 #contact input,
 #contact textarea {
     width: 100%;
-    border: 1px solid red;
+    border: 2px solid #ff69b4; /* rosa */
     background-color: rgb(255, 223, 223);
-    padding: .5rem
+    padding: .5rem;
 }
 
 #contact textarea {
@@ -43,15 +46,17 @@
     padding: .5rem 1rem;
     background-color: #999;
     pointer-events: none;
+    font-weight: bold; /* negrito */
 }
 
 #contact small {
     color: grey;
+    font-weight: bold; /* negrito */
 }
 
-#contact input:valid ,
+#contact input:valid,
 #contact textarea:valid {
-    border: 1px solid blue;
+    border: 2px solid blue;
     background-color: rgb(232, 240, 254);
 }
 
@@ -63,5 +68,6 @@
 
 .success {
     display: table;
-    margin-left: 2rem;    
+    margin-left: 2rem;
+    font-weight: bold; /* negrito */
 }

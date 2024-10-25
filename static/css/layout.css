@@ -33,7 +33,7 @@ body {
 
 /* Fundo das páginas */
 body {
-    background-color: rgb(227, 227, 227);
+    background-color: rgb(247, 210, 243);
     background-image: url('/static/img/bg01.jpg');
     background-attachment: fixed;
     background-position: left;
@@ -55,7 +55,7 @@ a {
 }
 
 a:hover {
-    color: orangered;
+    color: rgb(233, 108, 208);
 }
 
 /* Reset dos campos de formulário */
@@ -72,7 +72,7 @@ button {
 }
 
 .red {
-    color: red;
+    color: rgb(238, 115, 219);
 }
 
 /*************/
@@ -80,7 +80,7 @@ button {
 /*************/
 
 #wrap>header {
-    background-color: orange;
+    background-color: rgb(249, 76, 220);
     display: flex;
     flex-direction: column;
 }
@@ -103,7 +103,7 @@ button {
 
 /* Caixa de busca */
 #wrap>header form {
-    background-color: black;
+    background-color: rgb(9, 12, 52);
     display: flex;
     padding: 1rem;
 }
@@ -129,12 +129,12 @@ button {
 /******************/
 
 #wrap>nav {
-    background-color: orangered;
+    background-color: rgb(231, 136, 196);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px dotted gray;
-    border-bottom: 1px dotted gray;
+    border-top: 1px dotted rgb(231, 136, 196);
+    border-bottom: 1px dotted rgb(231, 136, 196);
 }
 
 #wrap>nav a {
@@ -171,13 +171,13 @@ button {
 
 /* Article */
 #wrap>main>article {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(251, 180, 236, 0.8);
 }
 
 /* Aside */
 #wrap>main>aside {
     background-color: #ddd;
-    border-top: 4px dotted rgb(128, 128, 128);
+    border-top: 4px dotted rgb(111, 180, 237);
 }
 
 /**********/
@@ -185,7 +185,7 @@ button {
 /**********/
 
 #wrap>footer {
-    background-color: black;
+    background-color: rgb(12, 18, 73);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -291,7 +291,7 @@ button {
     /* Aside */
     #wrap>main>aside {
         border-top: none;
-        border-left: 4px dotted rgb(128, 128, 128);
+        border-left: 4px dotted rgb(231, 136, 196);
         min-width: 220px;
         max-width: 220px;
     }
@@ -322,7 +322,7 @@ button {
 }
 
 .aside-article:hover {
-    background-color: #eee;
+    background-color: rgba(251, 180, 236, 0.8);
 }
 
 @media (max-width: 499px) {
